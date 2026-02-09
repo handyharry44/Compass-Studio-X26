@@ -9,24 +9,31 @@ async function initStudio() {
             
             // Logic for status class and label text
             const statusClass = isAvailable ? "status-available" : "status-sold";
-            const statusText = isAvailable ? "AVAILABLE" : "SOLD";
+            const statusText = isAvailable ? "Available" : "Archived"; // "Archived" sounds more premium than "Sold"
 
             return `
                 <article class="product-card">
-                    <span class="serial-tag">${item.serial}</span>
-                    <img src="${item.image}" alt="${item.name}">
-                    <div class="info">
-                        <p class="specs">${item.specs}</p>
-                        <h3>${item.name}</h3>
-                        <p>${item.description}</p>
-                        <span class="price">${item.price}</span>
+                    <div class="card-header">
+                        <span class="serial-tag">${item.serial}</span>
+                        <img src="${item.image}" alt="${item.name}" loading="lazy">
                     </div>
-                    <span class="status-banner ${statusClass}">${statusText}</span>
+                    <div class="info">
+                        <span class="specs">${item.specs}</span>
+                        <h3>${item.name}</h3>
+                        <p class="desc">${item.description}</p>
+                        
+                        <div class="card-footer">
+                            <span class="price">${item.price}</span>
+                            <span class="status-badge ${statusClass}">${statusText}</span>
+                        </div>
+                    </div>
                 </article>
             `;
         }).join('');
     } catch (err) {
         console.error("Studio Registry Error:", err);
+        // Fallback for user if JSON fails
+        document.getElementById('studio-gallery').innerHTML = `<p style="font-family:monospace; color:red;">Error loading registry data.</p>`;
     }
 }
 

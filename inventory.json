@@ -2,19 +2,19 @@
   {
     "serial": "X26-P001",
     "name": "The Provisioner Toolcase",
-    "specs": "3.5mm Bovine / 316 Stainless / Aluminum Shell",
-    "price": "N$ 4500.00",
+    "specs": "3.5mm Bovine / 316 Stainless",
+    "price": "N$ 4,500.00",
     "status": "Available",
     "image": "images/tool-roll-P001.jpg",
-    "description": "Triple-layer armor construction. Hand-filed brass hinges. Built for industrial service."
+    "description": "Triple-layer armor construction with an aluminum core. Features hand-filed brass hinges and heavy marine stitching. Built for extreme industrial service."
   },
   {
     "serial": "X26-S012",
     "name": "Skipper's Log Portfolio",
-    "specs": "Weather-Sealed Leather / Marine Twine",
-    "price": "N$ 1200.00",
+    "specs": "Weather-Sealed Kudu / Brass",
+    "price": "N$ 1,200.00",
     "status": "Collected",
     "image": "images/portfolio.jpg",
-    "description": "Inspired by the C. Plath compass patina. Hand-stitched with salt-resistant twine."
+    "description": "Inspired by the C. Plath compass patina. Hand-stitched with salt-resistant wax twine. A rugged minimalist carry for documents."
   }
 ]
