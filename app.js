@@ -9,7 +9,7 @@ async function initStudio() {
             
             // Logic for status class and label text
             const statusClass = isAvailable ? "status-available" : "status-sold";
-            const statusText = isAvailable ? "Available" : "Archived"; // "Archived" sounds more premium than "Sold"
+            const statusText = isAvailable ? "Available" : "Sold"; // "Archived" sounds more premium than "Sold"
 
             return `
                 <article class="product-card">
