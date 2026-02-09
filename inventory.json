@@ -1,0 +1,20 @@
+[
+  {
+    "serial": "X26-P001",
+    "name": "The Provisioner Toolcase",
+    "specs": "3.5mm Bovine / 316 Stainless / Aluminum Shell",
+    "price": "N$ 4500.00",
+    "status": "Available",
+    "image": "images/tool-roll-P001.jpg",
+    "description": "Triple-layer armor construction. Hand-filed brass hinges. Built for industrial service."
+  },
+  {
+    "serial": "X26-S012",
+    "name": "Skipper's Log Portfolio",
+    "specs": "Weather-Sealed Leather / Marine Twine",
+    "price": "N$ 1200.00",
+    "status": "Collected",
+    "image": "images/portfolio.jpg",
+    "description": "Inspired by the C. Plath compass patina. Hand-stitched with salt-resistant twine."
+  }
+]
